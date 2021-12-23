@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+ <link rel="stylesheet" href="./css/styles.css">
+
+ <title>Space tourism website</title>
+</head>
+
+<body class="tech">
+ <header class="nav-header flex">
+
+  <!-- navbar -->
+  <div>
+   <img src="./assets/shared/logo.svg" class="logo">
+  </div>
+  <div class="nav-line"></div>
+  <button aria-controls="primary-navigation" aria-expanded="false" class="mobile-toggle"></button>
+  <nav class="nav">
+   <ul class="primary-navigation flex underline-indicators" id="primary-navigation" data-visible='false'>
+    <li><a href="index.html"><span aria-hidden='true'>00</span> Home</a></li>
+    <li><a href="destination.html"><span aria-hidden='true'>01</span> Destination</a></li>
+    <li><a href="crew.html"><span aria-hidden='true'>02</span> Crew</a></li>
+    <li class="active"><a href="#"><span aria-hidden='true'>03</span> technology</a></li>
+   </ul>
+  </nav>
+ </header>
+ <!-- End of navbar -->
+
+
+ <!-- Hero-CREW -->
+ <section class="hero hero-tech">
+  <div class="">
+   <h5 class="title-n"><span>03</span> space launch 101</h5>
+   <!-- CREW img -->
+   <article class="tech-img"></article>
+
+  </div>
+  <div class="move-to-left">
+   <!-- Numbers -->
+   <div class="numbers flex" style="--gap: 0rem;">
+    <button aria-selected="true" class="">1</button>
+    <button aria-selected="false" class="">2</button>
+    <button aria-selected="false" class="">3</button>
+   </div>
+   <!-- End of Tabs -->
+   <div class="text-tech">
+
+      <h4>
+         the terminology
+      </h4>
+      <h2>launch vehicle</h2>
+      <p>
+         A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space,
+         usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,
+         it's quite an awe-inspiring sight on the launch pad!
+      </p>
+   </div>
+
+</div>
+
+ </section>
+
+
+ <script src="./js/app.js"></script>
+</body>
+
+</html>

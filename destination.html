@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+ <link rel="stylesheet" href="./css/styles.css">
+
+ <title>Space tourism website</title>
+</head>
+
+<body class="moon">
+ <header class="nav-header flex">
+
+  <!-- navbar -->
+  <div>
+   <img src="./assets/shared/logo.svg" class="logo">
+  </div>
+  <div class="nav-line"></div>
+  <button aria-controls="primary-navigation" aria-expanded="false" class="mobile-toggle"></button>
+  <nav class="nav">
+   <ul class="primary-navigation flex underline-indicators" id="primary-navigation" data-visible='false'>
+    <li ><a href="index.html"><span aria-hidden='true'>00</span> Home</a></li>
+    <li class="active"><a href="destination.html"><span aria-hidden='true'>01</span> Destination</a></li>
+    <li><a href="crew.html"><span aria-hidden='true'>02</span> Crew</a></li>
+    <li><a href="tech.html"><span aria-hidden='true'>03</span> technology</a></li>
+   </ul>
+  </nav>
+ </header>
+ <!-- End of navbar -->
+
+
+ <!-- Hero-MOON -->
+ <section class="hero hero-moon">
+  <div class="hero-text hero-moon-p">
+   <h5 class="title-n"><span>01</span> pick your destination</h5>
+   <!-- MOON img -->
+   <article class="moon-img"></article>
+
+  </div>
+   <div class="move-to-left">
+   <!-- Tabs -->
+    <div class="tab-list underline-indicators-tabs flex" >
+     <button aria-selected="true" class="tab-item tab-moon">Moon</button>
+     <button aria-selected="false" class="tab-item tab-mars">Mars</button>
+     <button aria-selected="false" class="tab-item">Europa</button>
+     <button aria-selected="false" class="tab-item">Titan</button>
+    </div>
+    <!-- End of Tabs -->
+    <h1>moon</h1>
+    <p>
+     See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back
+     refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+    </p>
+    <!-- dividing line -->
+    <div class="line"></div>
+    <!-- Section Travel Time -->
+    <div class="travel-time flex">
+     <div>
+    <p class="distance-text">avg. distance</p>
+    <p class="km">384,400 KM</p>
+   </div>
+   <div>
+    <p class="distance-text">est. travel time</p>
+    <p class="km">3 days</p>
+   </div>
+  </div>
+ </div>
+ </section>
+    
+
+
+ <!-- MARS TABS -->
+ <!-- Hero-mars -->
+ <section class="hero hero-mars">
+  <div class="hero-text hero-moon-p">
+   <h5 class="title-n"><span>01</span> pick your destination</h5>
+   <!-- MOON img -->
+   <article class="mars-img"></article>
+ 
+  </div>
+  <div class="move-to-left">
+   <!-- Tabs -->
+   <div class="tab-list underline-indicators-tabs flex">
+    <button aria-selected="false" class="tab-item tab-moon">Moon</button>
+    <button aria-selected="true" class="tab-item">Mars</button>
+    <button aria-selected="false" class="tab-item">Europa</button>
+    <button aria-selected="false" class="tab-item">Titan</button>
+   </div>
+   <!-- End of Tabs -->
+   <h1>Mars</h1>
+   <p>
+   Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our
+   solar system. It’s two and a half times the size of Everest!
+   </p>
+   <!-- dividing line -->
+   <div class="line"></div>
+   <!-- Section Travel Time -->
+   <div class="travel-time flex">
+    <div>
+     <p class="distance-text">avg. distance</p>
+     <p class="km">225 mil km</p>
+    </div>
+    <div>
+     <p class="distance-text">est. travel time</p>
+     <p class="km">9 months</p>
+    </div>
+   </div>
+  </div>
+ </section>
+
+
+ <script src="./js/app.js"></script>
+</body>
+
+</html>
